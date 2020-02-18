@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/join/join"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2E5E86",
+    "navigationBarTitleText": "平安银行贷款",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#555555",
+    "selectedColor": "#2E5E86",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/ic_home_normal.png",
+      "selectedIconPath": "images/ic_home_pressed.png"
+    },{
+      "pagePath": "pages/join/join",
+      "text": "加入",
+      "iconPath": "images/ic_join_normal.png",
+      "selectedIconPath": "images/ic_join_pressed.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
